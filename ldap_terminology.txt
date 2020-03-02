@@ -1,1 +1,16 @@
+LDAP - acronym of Light weight directory access protocol.
+Protocol-  ldap derived from the protocol x.500 DAP. x.500 DAP deviried as part of OSI network protocol stack.it is simpler, easier and faster protocol.
+LDAP prinicipe:- read from database is much faster then write to database.
+Directory services:- collection of h/w, s/w and processes and it stores information which are frequenty read, but updated less often. for example 1) profile of employee. 2) authentication detail:- information update only on password reset but read on each login.
+Directory service:- use the ldap to communicate and retrive these information from direcotry server and provide the retrived information to user or client applications.
+
+core of Directory service is direcory server where information are stored and retrieved. A direcory server with LDAP implementaion and sldap daemon act as directory service, which serves ldap request that come form different clients.
+when can also set GUI to accessing and manging  direcories in direcory server.
+Benifit of direcotry services:-  major benifit it uses ldap comunication protocal, which is light weight direcory protocol.
+in ldap direcotry serivces data is stored in hierarchical tree like strucrure, which make data retrive very faster and data is stored in centralized data base which also contribute to speeded data retrival.
+
+Directory service stores and maintain a set of infomation based on your requirement and these information are accessed from remote clients for authentication or setting preferences based on stored information and all these communication are done usin LDAP
+
+
+
 
