@@ -11,6 +11,21 @@ in ldap direcotry serivces data is stored in hierarchical tree like strucrure, w
 
 Directory service stores and maintain a set of infomation based on your requirement and these information are accessed from remote clients for authentication or setting preferences based on stored information and all these communication are done usin LDAP
 
+Direcotry information tree:- 
 
 
+
+Directory infomation tree:-
+is a hirechical tree-like structure to store entries of direcoty services.
+every infomration is entity in direcoty databse
+particulare entity has diff name i.e DN distinugh name
+every entiy wil has RDN 
+DN is path to entity
+RDN is used to refer an entity itself. ofcourse while framing DN we will be using RDN using RDN to reffer an entirty
+
+every entity in directory structure have one or more attribue which store informate of entity.
+RDN of the entity will be any of this atttibue e. g student name
+row =  entity
+cloum = attribue (key value pairt)
+rw = reads (frequenty read what update rarely)
 
