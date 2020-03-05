@@ -4,3 +4,11 @@ Type of Object Classes:-
 2) Auxiliry object class:- use to add additional attributes to and entry created by other structre object class.
 3) Abstract object class:-  sit on top of other class which are derived form it. e.g top object class.
 oops concepts are implimented by abstract object class.
+
+Frequntly used object classes:-
+1)organisation unit-RDN = OU - most frequntly used object class. mainly used to store different category data.
+e.g when we branch out indevisual people and group name use OU.
+2)organisation object class -> RDN=O, one level up with OU.
+3) Country object class -> RDN=C, one level up O.
+4) PosixAccount -> RDN=UID used to store infomation partaing to a user, use in every directory sture use to store indivisul informatin
+
