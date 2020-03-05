@@ -15,16 +15,13 @@ Direcotry information tree:-
 
 
 
-Directory infomation tree:-
-is a hirechical tree-like structure to store entries of direcoty services.
-every infomration is entity in direcoty databse
-particulare entity has diff name i.e DN distinugh name
-every entiy wil has RDN 
-DN is path to entity
-RDN is used to refer an entity itself. ofcourse while framing DN we will be using RDN using RDN to reffer an entirty
-
-every entity in directory structure have one or more attribue which store informate of entity.
-RDN of the entity will be any of this atttibue e. g student name
+Directory infomation tree:- is a hirechical tree-like structure to store entries of direcoty services.
+Every infomration is entity in direcoty databse particulare entity has diff name i.e DN distinugh name.
+Every entiy wil has RDN(relative distingush name)
+DN is path to entity, RDN is used to refer an entity itself. ofcourse while framing DN we will be using RDN using RDN to reffer an entirty
+Every entity in directory structure have one or more attribue which store information about entity.
+RDN of the entity will be any of this atttibue e.g student name
+compare with sql database
 row =  entity
 cloum = attribue (key value pairt)
 rw = reads (frequenty read what update rarely)
