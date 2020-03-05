@@ -1,0 +1,6 @@
+Object Classes :- are the building block of information tree, oc define the way data is presented to application which access the data
+Type of Object Classes:- 
+1) Structure object class:- use to create entity, every entity should have one or more enity.
+2) Auxiliry object class:- use to add additional attributes to and entry created by other structre object class.
+3) Abstract object class:-  sit on top of other class which are derived form it. e.g top object class.
+oops concepts are implimented by abstract object class.
