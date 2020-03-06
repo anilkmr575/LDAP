@@ -1,0 +1,16 @@
+Slapd - standalong ldapd dameon. it listen for all LDAP connection at port 389, and respond to all ldap operations it receives
+from client.
+all configuration can be done in slapd, this helps to dynamically manange ldap configruation, so no need to restart service
+on every change in configuration file.
+ldap-utils - it provides all necessry package to ldap server.
+#sudo apt-get install slapd ldap-utils
+
+
+
+
+
+
+
+Ldap web interface setup:- 
+LDAP GUI:- used to maintain directory structe in ldap
+gui used - phpldapadmin; apache directory studio
