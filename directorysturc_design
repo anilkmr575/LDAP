@@ -1,0 +1,12 @@
+Directory structe start with base DN. it is the root where we can create first entity
+1) DN name
+2)ldap split DNS name with "." deliminator. Each of the splited value will have an entity using domain object and it has DC attribute as RDN
+DC=domain component.
+Factore influence directory Tree:-
+1)  Enterprise structure - if organisatin in different geographical region
+2) Application to be used - either for simple data storage or for authentication.
+3) Replication machnisam
+4) customised object classed as per requirement.
+
+How to frame DN of user in directory structure:-
+RDN + path to base dn from RDN + base dn
