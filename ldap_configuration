@@ -14,3 +14,6 @@ ldap-utils - it provides all necessry package to ldap server.
 Ldap web interface setup:- 
 LDAP GUI:- used to maintain directory structe in ldap
 gui used - phpldapadmin; apache directory studio
+apache directory studio:- can be download from directory.apache.org
+
+
