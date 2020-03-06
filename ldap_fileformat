@@ -1,0 +1,3 @@
+LDIF - ldap data interchange format, used to communicate with ldap system to maintain directory structure.
+Data in ldif format can be stored in a file with .ldif extension and can be exported to ldap sytem.
+it has data in key value pair.Each ldif file should have DN which says where the entity has to be made, apart from it it also has object class and any number of attributes.
