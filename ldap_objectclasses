@@ -10,5 +10,13 @@ Frequntly used object classes:-
 e.g when we branch out indevisual people and group name use OU.
 2)organisation object class -> RDN=O, one level up with OU.
 3) Country object class -> RDN=C, one level up O.
-4) PosixAccount -> RDN=UID used to store infomation partaing to a user, use in every directory sture use to store indivisul informatin
+4) PosixAccount -> RDN=UID used to store infomation partaing to a user,
+use in every directory sture use to store indivisul informatin
+5) PosixGroup -> RDN=CN - used to store indivusal group detail, usualy referred with UID attribute. e.g dev team and systemadmin team.
+
+Frequntly used attributes:-
+1) CommonName(CN) - primary attribute for more then 8 object classes. CN is used to refer and segredate one set of entity from other.
+e.g CN=dev and CN=adim.
+2)Userid(UID) - imp attribute, used at last level in direcotry structure,use to save user entity.used aroub four object classes.
+also using uid entity can be refered in other object class.
 
