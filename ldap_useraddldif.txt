@@ -1,0 +1,17 @@
+dn: uid=jhon,o=xxx,c=uk,dc=caldap,dc=iitrpr,dc=ac,dc=in
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: john
+sn: Doe
+givenName: John
+cn: john Doe
+displayName: John Doe
+uidNumber: 10000
+gidNumber: 5000
+userPassword: redhat
+gecos: john Doe
+loginShell: /bin/bash
+homeDirectory: /home/john
+
+
+ldap://192.168.122.199:389/dc=caldap,dc=iitrpr,dc=ac,dc=in??sub?(cn=sysadmin)
