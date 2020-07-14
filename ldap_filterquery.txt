@@ -1,0 +1,25 @@
+Fliters ldap
+
+(&
+    (objectClass=inetOrgPerson)
+    (memberOf=cn=admins,ou=groups,dc=caldap,dc=iitrpr,dc=ac,dc=in)
+)
+
+# Admins, Users, <org-id>, jumpcloud.com
+dn: cn=Admins,ou=Users,o=<org-id>,dc=jumpcloud,dc=com
+member: uid=john,ou=Users,o=<org-id>,dc=jumpcloud,dc=com
+member: uid=mary,ou=Users,o=<org-id>,dc=jumpcloud,dc=com
+objectClass: top
+objectClass: groupOfNames
+description: tagGroup
+cn: Admins
+ou: Admins
+Getting the Contents of a Specific Group
+(&(objectClass=groupOfNames)(cn=Admins))
+The above query says, show me only LDAP records where objectClass=groupOfNames (a group), and where the common name (cn) equal "Admins". 
+Getting the Users in a Specific Group
+(&(objectClass=inetOrgPerson)(memberOf=cn=Admins,ou=Users,o=<org>,dc=jumpcloud,dc=com))
+The above query says, give me only users (objectClass=inetOrgPerson) where the users are a member of the Admins groups.
+
+Note that in the above queries, the queries are surrounded by (&(filter1)(filter2)). This is called "prefix" notation, 
+and is exactly the same as the "infix" notation that you may be more used to, which would look like: (filter1) and (filter2).
