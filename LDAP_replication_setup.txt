@@ -1,0 +1,16 @@
+LDAP replication setup
+
+LDAP reconfigure command
+ sudo dpkg-reconfigure slapd
+
+Location of sync provider module
+ /usr/lib/ldap/syncprov.la
+
+Linux command to switch to sudo user
+sudo -s
+
+LDAP add command to load syncprov.la
+ldapadd -Y EXTERNAL -H ldapi:/// -f mod_syncprov.ldif
+
+LDAP config file location in  linux machine, with remote authentication -  edit this config as mentioned in demo to support multiple LDAP server
+sudo vi /etc/ldap.conf
