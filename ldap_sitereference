@@ -7,6 +7,7 @@ https://wiki.debian.org/LDAP/PAM
 https://www.openldap.org/doc/admin24/guide.html
       ppolicy
 https://www.arctiq.ca/our-blog/2018/9/4/implementing-a-password-policy-in-an-ldap-directory/
+https://simp.readthedocs.io/en/master/user_guide/User_Management/LDAP.html
       replication
 https://tylersguides.com/guides/openldap-multi-master-replication/
 
